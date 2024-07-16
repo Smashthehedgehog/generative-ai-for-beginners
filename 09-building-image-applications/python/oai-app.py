@@ -15,7 +15,7 @@ try:
     # Create an image by using the image generation API
     generation_response = client.images.generate(
         model="dall-e-3",
-        prompt='Bunny on horse, holding a lollipop, on a foggy meadow where it grows daffodils',    # Enter your prompt text here
+        prompt='The scene is straight out of a panel of Air Gear, the manga, thus it is black and white. The scene shows Kazu from Air Gear using his ATs, or Air Teck, to fight Vegito from Dragon Ball, who is using Ki Blasts. Kazu is overwhelming Vegito with his spectacular speed as he uses his Air Teck',    # Enter your prompt text here
         size='1024x1024',
         n=1
     )
